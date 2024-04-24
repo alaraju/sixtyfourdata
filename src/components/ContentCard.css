@@ -30,3 +30,40 @@
 .content-details p {
   margin-bottom: 0;
 }
+
+/* upperCard.css */
+.upper-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 130px;
+  height: 100px;
+  padding-bottom: 20px;
+  font-size: 10px;
+}
+
+.upper-card:hover {
+  transform: translateY(-5px);
+}
+
+.upper-card img {
+  width: 30px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.upper-details {
+  padding: 20px;
+}
+
+.upper-details h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.upper-details p {
+  margin-bottom: 0;
+}
